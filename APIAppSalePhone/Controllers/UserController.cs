@@ -13,9 +13,22 @@ namespace APIAppSalePhone.Controllers
             _context = context;
         }
         [HttpGet]
-        public async Task<IActionResult> GetPrducts()
+        public async Task<IActionResult> GetAllUsers()
         {
             return Ok(await _context.Accounts.ToListAsync());
+        }
+        [HttpGet("{id}")]
+        public async Task<ActionResult<FinalContext>> GetUserById(int id)
+        {
+            var user = await _context.Accounts.FindAsync(id);
+            if (user == null)
+            {
+                return BadRequest("User not found");
+            }
+            else
+            {
+                return Ok(user);
+            }
         }
     }
 }

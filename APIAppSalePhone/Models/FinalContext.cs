@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using APIAppSalePhone.Data;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace APIAppSalePhone.Models;
@@ -38,10 +40,11 @@ public partial class FinalContext : DbContext
     public virtual DbSet<Payment> Payments { get; set; }
 
     public virtual DbSet<Product> Products { get; set; }
+    //DESKTOP-O1N1OUG\SQLEXPRESS
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=LAPOFTRUONG;Database=final;UID=sa;PWD=123; TrustServerCertificate=True");
+        => optionsBuilder.UseSqlServer("Server=DESKTOP-O1N1OUG\\SQLEXPRESS;Database=final;User Id=sa;Password=123; TrustServerCertificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -480,7 +483,7 @@ public partial class FinalContext : DbContext
                 .HasConstraintName("FK_Product_Genre");
         });
 
-        OnModelCreatingPartial(modelBuilder);
+        base.OnModelCreating(modelBuilder);
     }
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);

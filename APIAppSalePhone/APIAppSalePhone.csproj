@@ -18,49 +18,4 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Include="wwwroot\image\Asset\apple-iphone-12-mini.png" />
-    <None Include="wwwroot\image\Asset\green-iphone13.png" />
-    <None Include="wwwroot\image\Asset\ip11den.jpg" />
-    <None Include="wwwroot\image\Asset\ip11gold.jpg" />
-    <None Include="wwwroot\image\Asset\ip11green.png" />
-    <None Include="wwwroot\image\Asset\ip11white.jpg" />
-    <None Include="wwwroot\image\Asset\ip12blue.png" />
-    <None Include="wwwroot\image\Asset\ip12den.jpg" />
-    <None Include="wwwroot\image\Asset\ip12green.png" />
-    <None Include="wwwroot\image\Asset\ip12p128blue.jpg" />
-    <None Include="wwwroot\image\Asset\ip12p128gold.png" />
-    <None Include="wwwroot\image\Asset\ip12p128grey.png" />
-    <None Include="wwwroot\image\Asset\ip12p128white.png" />
-    <None Include="wwwroot\image\Asset\ip12pm128blue.png" />
-    <None Include="wwwroot\image\Asset\ip12pm128gold.png" />
-    <None Include="wwwroot\image\Asset\ip12pm128grey.png" />
-    <None Include="wwwroot\image\Asset\ip12pm128silver.jpg" />
-    <None Include="wwwroot\image\Asset\ip12pmblue.jpg" />
-    <None Include="wwwroot\image\Asset\ip12pmgold.jpg" />
-    <None Include="wwwroot\image\Asset\ip12pmgrey.jpg" />
-    <None Include="wwwroot\image\Asset\ip12trang.png" />
-    <None Include="wwwroot\image\Asset\ip13512gbgreen.png" />
-    <None Include="wwwroot\image\Asset\ip13p128gbgreen.jpg" />
-    <None Include="wwwroot\image\Asset\ip13pblack.png" />
-    <None Include="wwwroot\image\Asset\ip13pblue.png" />
-    <None Include="wwwroot\image\Asset\ip13pgold.png" />
-    <None Include="wwwroot\image\Asset\ip13pm128green.jpg" />
-    <None Include="wwwroot\image\Asset\ip13psil.png" />
-    <None Include="wwwroot\image\Asset\ip14pmbac.png" />
-    <None Include="wwwroot\image\Asset\ip14pmblack.png" />
-    <None Include="wwwroot\image\Asset\ip14pmgold.jpg" />
-    <None Include="wwwroot\image\Asset\ip14pmgreen.png" />
-    <None Include="wwwroot\image\Asset\ip14pmvang.png" />
-    <None Include="wwwroot\image\Asset\ip14pmxanh.png" />
-    <None Include="wwwroot\image\Asset\ip14promaxden.png" />
-    <None Include="wwwroot\image\Asset\iphone-12-pro-max.png" />
-    <None Include="wwwroot\image\Asset\iphone13-xanhla.jpg" />
-    <None Include="wwwroot\image\Asset\iphone14.png" />
-    <None Include="wwwroot\image\Asset\t_m-iphone-14-pro.png" />
-    <None Include="wwwroot\image\Asset\vang-iphone-14-pro.png" />
-    <None Include="wwwroot\image\Asset\xanh-iphone13pro.jpg" />
-    <None Include="wwwroot\image\Asset\xanh-iphone14-plus.png" />
-  </ItemGroup>
-
 </Project>

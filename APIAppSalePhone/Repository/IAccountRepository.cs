@@ -5,7 +5,7 @@ namespace APIAppSalePhone.Repository
     public interface IAccountRepository
     {
         public bool SignUp(RegisterModel model);
-        public string SignIn(LoginModel model);
+        public LoginRes SignIn(LoginModel model);
 
     }
 }

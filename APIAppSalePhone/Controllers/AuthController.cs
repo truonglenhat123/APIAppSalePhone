@@ -33,7 +33,7 @@ namespace APIAppSalePhone.Controllers
         public  IActionResult SignIn(LoginModel loginModel)
         {
             var result =  accountRepository.SignIn(loginModel);
-            if(string.IsNullOrEmpty(result))
+            if(result == null)
             {
                 return BadRequest("UserName or Password incorrect");
             }
